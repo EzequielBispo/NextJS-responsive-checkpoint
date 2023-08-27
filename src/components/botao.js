@@ -41,7 +41,7 @@ const Botao = styled.button`
   height: 60px;
   left: 644px;
   top: 300px;
-
+  text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
   font-size: 34px;
@@ -51,7 +51,5 @@ const Botao = styled.button`
 `;
 
 export default function FunBotao() {
-  return( <Botao className='button'>
-    proximo
-  </Botao>);
+  return <Botao className="button">proximo</Botao>;
 }
