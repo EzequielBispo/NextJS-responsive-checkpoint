@@ -2,6 +2,8 @@
 
 import "src/styles/titulo.css";
 import styled from "styled-components";
+import { inter } from "@/app/fonts";
+
 const Titulo = styled.h1`
   /* SELECIONAR APÓLICE */
 
@@ -22,5 +24,5 @@ const Titulo = styled.h1`
 `;
 
 export default function FunTitulo(props) {
-  return <Titulo className="">{props.name}</Titulo>;
+  return <Titulo className={inter.className}>{props.name}</Titulo>;
 }

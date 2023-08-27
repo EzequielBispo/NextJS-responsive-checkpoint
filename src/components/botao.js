@@ -2,6 +2,6 @@
 
 export default function Botao() {
     return (
-        <button className="g">Clique aqui</button>
+        <button className="">Clique aqui</button>
     )
 }
