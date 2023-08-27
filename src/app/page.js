@@ -6,7 +6,7 @@ import Botao from '@/components/botao'
 export default function Home() {
   return (
     <main>
-      <Titulo></Titulo>
+      <Titulo name='selecionar apolice'></Titulo>
       <Subtitulo></Subtitulo>
       <Botao></Botao>
     </main>
