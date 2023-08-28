@@ -51,5 +51,5 @@ const Botao = styled.button`
 `;
 
 export default function FunBotao() {
-  return <Botao className="button">proximo</Botao>;
+  return <Botao className={inter.className}>proximo</Botao>;
 }
