@@ -5,13 +5,13 @@ import { montserrat } from "@/app/fonts";
 
 const Subtitulo = styled.h2`
   position: absolute;
+  text-transform: uppercase;
   width: 382px;
   height: 34px;
   left: 163px;
   top: 268px;
 
   font-style: normal;
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 28px;
   line-height: 34px;
